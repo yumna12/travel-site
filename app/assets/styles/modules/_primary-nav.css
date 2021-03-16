@@ -36,7 +36,6 @@
         }
     }
 
-
     a{
         color: #fff;
         font-weight: 300;
@@ -45,13 +44,15 @@
         font-size: .8rem;
         background-color: rgba(47,85,114, .5);
 
-
         @mixin atMedium {
             padding: 12px, 0;
             font-size: 1rem;
             background-color: transparent;
-        }
 
-    }
+            &.is-current-link{
+            color: #fabb69;
+            }
+        }
     }
 }
+    }
