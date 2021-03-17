@@ -4,7 +4,6 @@ import MobileMenu from './Modules/MobileMenu'
 import RevealOnScroll from './Modules/RevealOnScroll'
 import StickyHeader from './Modules/StickyHeader'
 
-
 new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75)
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 60)
